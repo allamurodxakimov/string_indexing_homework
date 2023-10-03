@@ -1,3 +1,4 @@
+import string
 def main(s):
     """
     a single character string is given. Convert it to int type, return -1 if not possible.
@@ -6,4 +7,10 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    k = s.isdigit()
+    if k == True:
+        return s
+    else :
+        return -1
+print(main("4"))
+print(main("h"))
